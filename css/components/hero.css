@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 400px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-text {
+  position: relative;
+  width: 75%;
+  height: 50%;
+  color: rgb(47, 4, 176);
+  background-color: rgba(243, 240, 252, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(59, 2, 230);
+}
+
+.hero-text i {
+  position: absolute;
+  left: 150px;
+  top: 70px;
+}
+
+.hero-text:hover {
+  background-color: rgba(243, 240, 252, 0.8);
+  box-shadow: 0 0 15px red;
+  transition: 0.5s;
+}

@@ -1,0 +1,29 @@
+section {
+  background: rgb(35,50,60);
+  background: radial-gradient(circle, rgba(35,50,60,1) 21%, rgba(200,236,255,1) 80%, rgba(127,94,129,1) 95%);
+  padding: 100px 0;
+}
+
+.section-text {
+  text-align: center;
+}
+
+.section-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(47, 4, 176);
+}
+
+.section-text p {
+  font-size: 18px;
+  padding-bottom: 30px;
+  color: rgb(47, 4, 176);
+}
+
+.cards {
+  display: grid;
+  grid: auto-flow / 1fr 1fr;
+  gap: 2em;
+  margin: 100px 50px 0 50px;
+  padding-left: 130px;
+}
